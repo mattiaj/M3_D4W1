@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+
+}
+main {
+    display: flex;
+    flex-direction: column;
+    background-color: #FEF8E2;
+    align-self: center;
+    max-width: 40vh;
+    border-radius: 50px;
+}
+img {
+    flex-grow: 1;
+    border-radius: 50px 50px 0 0;
+}
+.description {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    justify-content: space-around;
+    margin: 8%;
+}
+.description h3, div {
+    margin: 0;
+}
+ button {
+    margin: 0 0 8% 0;
+    border-radius: 50px;
+    align-self: center;
+    padding: 3% 15%;
+    background-color: #FFDF7E;
+    border: none;
+    cursor: pointer;
+}
